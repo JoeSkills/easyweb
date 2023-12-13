@@ -258,13 +258,6 @@ footer {
     flex: 0 0 100%;
     max-width: 100%;
   }
-}
-
-@media screen and (max-width: 750px) {
-  .get-in-touch > div > * {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
   .bar {
     display: block;
   }
@@ -280,6 +273,54 @@ footer {
   }
   .hamburger.active .bar:nth-child(3) {
     transform: rotate(-45deg) translateY(-11.5px);
+  }
+
+  .nav-cta {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0;
+    margin-right: 40px;
+  }
+
+  .nav-links .nav-link,
+  .nav-links a {
+    display: block;
+    margin: 0;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  nav.active {
+    height: 100vh;
+    align-items: start;
+  }
+
+  nav.active .nav-links {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  nav.active .nav-links a {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+
+  .nav-link.menu-nav-link:hover .sub-nav-links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .get-in-touch > div > * {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
   header h1 {
@@ -322,54 +363,9 @@ footer {
     max-width: 100%;
   }
 
-  nav {
-    padding-inline: 20px;
-  }
-
-  .nav-cta {
-    font-size: 18px;
-    padding: 10px 20px;
-    margin: 0;
-    margin-right: 40px;
-  }
-
-  .nav-links .nav-link,
-  .nav-links a {
-    display: block;
-    margin: 0;
-  }
-
-  .nav-links {
-    display: none;
-  }
-
-  nav.active {
-    height: 100vh;
-    align-items: start;
-  }
-
-  nav.active .nav-links {
-    display: block;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-  }
-
-  nav.active .nav-links a {
-    margin-top: 20px;
-    text-transform: uppercase;
-    font-size: 24px;
-  }
-
   .accordion .contentBx {
     flex: 0 0 100%;
     max-width: 100%;
-  }
-
-  .nav-link.menu-nav-link:hover .sub-nav-links {
-    display: none;
   }
 
   section.services {

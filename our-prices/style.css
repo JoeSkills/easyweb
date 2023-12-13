@@ -210,17 +210,6 @@ footer {
   nav {
     padding: 50px 30px;
   }
-}
-
-@media screen and (max-width: 750px) {
-  .header-image-wrapper img {
-    width: 90%;
-  }
-
-  .get-in-touch > div > * {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
   .bar {
     display: block;
   }
@@ -236,50 +225,6 @@ footer {
   }
   .hamburger.active .bar:nth-child(3) {
     transform: rotate(-45deg) translateY(-11.5px);
-  }
-
-  header h1 {
-    font-size: 40px;
-  }
-
-  .selling-points-content-container {
-    gap: 35px;
-  }
-
-  .selling-points-content-container > div {
-    max-width: 100%;
-    flex: 0 0 100%;
-  }
-
-  section.main-value-proposition > div {
-    max-width: 100%;
-    flex: 0 0 100%;
-  }
-
-  .services-content-wrapper {
-    gap: 35px;
-  }
-
-  .services-content-wrapper > div {
-    max-width: 100%;
-    flex: 0 0 100%;
-  }
-
-  header .google-reviews-container {
-    font-size: 24px;
-  }
-
-  .testimonials-content-wrapper {
-    gap: 35px;
-  }
-
-  .testimonials-content {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  nav {
-    padding-inline: 20px;
   }
 
   .nav-cta {
@@ -319,13 +264,23 @@ footer {
     font-size: 24px;
   }
 
-  .accordion .contentBx {
+  .nav-link.menu-nav-link:hover .sub-nav-links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header-image-wrapper img {
+    width: 90%;
+  }
+
+  .get-in-touch > div > * {
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .nav-link.menu-nav-link:hover .sub-nav-links {
-    display: none;
+  header h1 {
+    font-size: 40px;
   }
 }
 

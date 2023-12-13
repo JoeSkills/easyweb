@@ -223,18 +223,6 @@ footer {
   nav {
     padding: 50px 30px;
   }
-
-  section.content-wrapper > div > * {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  section.content-wrapper > div {
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 750px) {
   .bar {
     display: block;
   }
@@ -250,32 +238,6 @@ footer {
   }
   .hamburger.active .bar:nth-child(3) {
     transform: rotate(-45deg) translateY(-11.5px);
-  }
-
-  header h1 {
-    font-size: 40px;
-  }
-
-  header .google-reviews-container {
-    font-size: 24px;
-  }
-
-  .testimonials-content-wrapper {
-    gap: 35px;
-  }
-
-  .testimonials-content {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  section.content-wrapper,
-  section.key-points {
-    padding-inline: 20px;
-  }
-
-  nav {
-    padding-inline: 20px;
   }
 
   .nav-cta {
@@ -317,6 +279,39 @@ footer {
 
   .nav-link.menu-nav-link:hover .sub-nav-links {
     display: none;
+  }
+
+  section.content-wrapper > div > * {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  section.content-wrapper > div {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  header h1 {
+    font-size: 40px;
+  }
+
+  header .google-reviews-container {
+    font-size: 24px;
+  }
+
+  .testimonials-content-wrapper {
+    gap: 35px;
+  }
+
+  .testimonials-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  section.content-wrapper,
+  section.key-points {
+    padding-inline: 20px;
   }
 }
 
