@@ -446,6 +446,37 @@ section.get-in-touch {
   color: #fff;
 }
 
+
+section.main-about {
+  padding: 100px 50px;
+  color: #333;
+}
+
+section.main-about > h2 {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+section.main-about .content {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+section.main-about .content > * {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+section.main-about .content img {
+  height: 400px;
+  object-fit: cover;
+}
+
+section.main-about .content p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
 .get-in-touch-heading {
   font-size: 32px;
   font-weight: 700;
@@ -582,6 +613,15 @@ footer {
 
   header h1 {
     font-size: 40px;
+  }
+
+  section.main-about .content {
+    flex-wrap: wrap;
+  }
+
+  section.main-about .content > * {
+    max-width: 100%;
+    flex: 0 0 100%;
   }
 
   .selling-points-content-container {
