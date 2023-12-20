@@ -248,11 +248,16 @@ section.main-value-proposition > div {
   color: #fff;
 }
 
+.main-value-proposition .secondary-points > h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .main-value-proposition .secondary-points .secondary-points-list {
   margin-top: 35px;
 }
 
-.main-value-proposition .secondary-points .secondary-points-list p {
+.main-value-proposition .secondary-points .secondary-points-list h2 {
   font-size: 18px;
   margin-bottom: 10px;
 }
